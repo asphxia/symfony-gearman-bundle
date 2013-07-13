@@ -1,5 +1,5 @@
 {
-    "name": "laelaps/symfony-gearman-bundle",
+    "name": "asphyxia/symfony-gearman-bundle",
     "description": "Integrates Gearman into Symfony2",
     "keywords": ["symfony", "gearman", "bundle"],
     "homepage": "https://github.com/laelaps/symfony-gearman-bundle",
@@ -14,7 +14,7 @@
     ],
     "require": {
         "ext-gearman": "*",
-        "php": ">=5.4.0",
+        "php": ">=5.3.0",
         "symfony/console": "~2.1",
         "symfony/framework-bundle": "~2.1"
     },
