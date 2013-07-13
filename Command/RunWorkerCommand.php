@@ -105,7 +105,7 @@ class RunWorkerCommand extends ContainerAwareCommand
     {
         $annotationReader = $this->getContainer()->get('annotation_reader');
 
-        $pointsOfEntry = [];
+        $pointsOfEntry = array();
 
         $workerReflection = new ReflectionObject($worker);
         $workerReflectionMethods = $workerReflection->getMethods(ReflectionMethod::IS_PUBLIC);
